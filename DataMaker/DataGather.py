@@ -20,8 +20,8 @@ def DataGather():
     jsonWirter = JsonWriter()
     for  matchID in matchIDs :
 
-        matchIDDate = matchDataReciver.GetMatchDetail(matchID)
-        jsonWirter.Write(matchIDDate , str(matchID) + ".json")
+        matchIDDate = matchDataReciver.GetMatchDetail(matchID[0])
+        jsonWirter.Write(matchIDDate , str(matchID[0]) + ".json")
 
 
 

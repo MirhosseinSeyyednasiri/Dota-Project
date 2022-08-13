@@ -66,7 +66,7 @@ class MatchIDFinderByHeroName():
     def GrabMatchID(self) -> None:
 
         for heroName in heros :
-            #print(heroName)
+            print(heroName)
             # create url link for send request to grab data
             urlLink = "https://www.dota2protracker.com/hero/" + heroName.replace(" " , "%20")
             #print(urlLink)
@@ -75,8 +75,7 @@ class MatchIDFinderByHeroName():
             
             # create BeautifulSoup object
             soup = BeautifulSoup(htmlData , "html.parser")
-            print(soup.prettify)
-            break
+
             # find all a tag with info opendota information
             aTagList = soup.find_all("a" , class_ = "info opendota")
             #print(aTagList)
@@ -128,6 +127,9 @@ class DataBaseHandler() :
 
         self.cursor.execute("select * from MatchID")
         matchIDs = self.cursor.fetchall()
-        print(type(matchIDs))
+        print(matchIDs)
         return matchIDs
 
+
+a = DataBaseHandler()
+a.ReadMatchIDTable()

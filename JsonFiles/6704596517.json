@@ -1,0 +1,1456 @@
+{
+    "result": {
+        "players": [
+            {
+                "account_id": 4294967295,
+                "player_slot": 0,
+                "team_number": 0,
+                "team_slot": 0,
+                "hero_id": 126,
+                "item_0": 98,
+                "item_1": 123,
+                "item_2": 41,
+                "item_3": 100,
+                "item_4": 48,
+                "item_5": 534,
+                "backpack_0": 16,
+                "backpack_1": 0,
+                "backpack_2": 0,
+                "item_neutral": 288,
+                "kills": 4,
+                "deaths": 8,
+                "assists": 19,
+                "leaver_status": 0,
+                "last_hits": 229,
+                "denies": 4,
+                "gold_per_min": 477,
+                "xp_per_min": 675,
+                "level": 26,
+                "net_worth": 26683,
+                "aghanims_scepter": 1,
+                "aghanims_shard": 1,
+                "moonshard": 0,
+                "hero_damage": 21238,
+                "tower_damage": 5463,
+                "hero_healing": 110,
+                "gold": 2858,
+                "gold_spent": 17435,
+                "scaled_hero_damage": 10794,
+                "scaled_tower_damage": 2065,
+                "scaled_hero_healing": 22,
+                "ability_upgrades": [
+                    {
+                        "ability": 7710,
+                        "time": 231,
+                        "level": 1
+                    },
+                    {
+                        "ability": 6470,
+                        "time": 291,
+                        "level": 2
+                    },
+                    {
+                        "ability": 6470,
+                        "time": 332,
+                        "level": 3
+                    },
+                    {
+                        "ability": 7710,
+                        "time": 383,
+                        "level": 4
+                    },
+                    {
+                        "ability": 6470,
+                        "time": 499,
+                        "level": 5
+                    },
+                    {
+                        "ability": 7705,
+                        "time": 554,
+                        "level": 6
+                    },
+                    {
+                        "ability": 6470,
+                        "time": 624,
+                        "level": 7
+                    },
+                    {
+                        "ability": 7701,
+                        "time": 776,
+                        "level": 8
+                    },
+                    {
+                        "ability": 7710,
+                        "time": 891,
+                        "level": 9
+                    },
+                    {
+                        "ability": 7710,
+                        "time": 1009,
+                        "level": 10
+                    },
+                    {
+                        "ability": 7701,
+                        "time": 1190,
+                        "level": 11
+                    },
+                    {
+                        "ability": 7705,
+                        "time": 1262,
+                        "level": 12
+                    },
+                    {
+                        "ability": 7701,
+                        "time": 1372,
+                        "level": 13
+                    },
+                    {
+                        "ability": 7701,
+                        "time": 1547,
+                        "level": 14
+                    },
+                    {
+                        "ability": 7709,
+                        "time": 1686,
+                        "level": 15
+                    },
+                    {
+                        "ability": 7707,
+                        "time": 1854,
+                        "level": 16
+                    },
+                    {
+                        "ability": 7705,
+                        "time": 2098,
+                        "level": 17
+                    },
+                    {
+                        "ability": 6326,
+                        "time": 2374,
+                        "level": 18
+                    },
+                    {
+                        "ability": 7708,
+                        "time": 2767,
+                        "level": 19
+                    }
+                ]
+            },
+            {
+                "account_id": 4294967295,
+                "player_slot": 1,
+                "team_number": 0,
+                "team_slot": 1,
+                "hero_id": 41,
+                "item_0": 156,
+                "item_1": 158,
+                "item_2": 117,
+                "item_3": 116,
+                "item_4": 139,
+                "item_5": 123,
+                "backpack_0": 98,
+                "backpack_1": 63,
+                "backpack_2": 0,
+                "item_neutral": 571,
+                "kills": 12,
+                "deaths": 2,
+                "assists": 13,
+                "leaver_status": 0,
+                "last_hits": 436,
+                "denies": 23,
+                "gold_per_min": 755,
+                "xp_per_min": 817,
+                "level": 29,
+                "net_worth": 38417,
+                "aghanims_scepter": 1,
+                "aghanims_shard": 1,
+                "moonshard": 0,
+                "hero_damage": 37834,
+                "tower_damage": 12026,
+                "hero_healing": 0,
+                "gold": 17,
+                "gold_spent": 33995,
+                "scaled_hero_damage": 17489,
+                "scaled_tower_damage": 5045,
+                "scaled_hero_healing": 0,
+                "ability_upgrades": [
+                    {
+                        "ability": 5182,
+                        "time": 157,
+                        "level": 1
+                    },
+                    {
+                        "ability": 5691,
+                        "time": 321,
+                        "level": 2
+                    },
+                    {
+                        "ability": 5184,
+                        "time": 355,
+                        "level": 3
+                    },
+                    {
+                        "ability": 5182,
+                        "time": 477,
+                        "level": 4
+                    },
+                    {
+                        "ability": 5182,
+                        "time": 560,
+                        "level": 5
+                    },
+                    {
+                        "ability": 5185,
+                        "time": 634,
+                        "level": 6
+                    },
+                    {
+                        "ability": 5182,
+                        "time": 728,
+                        "level": 7
+                    },
+                    {
+                        "ability": 5184,
+                        "time": 818,
+                        "level": 8
+                    },
+                    {
+                        "ability": 5184,
+                        "time": 899,
+                        "level": 9
+                    },
+                    {
+                        "ability": 5184,
+                        "time": 983,
+                        "level": 10
+                    },
+                    {
+                        "ability": 5691,
+                        "time": 1065,
+                        "level": 11
+                    },
+                    {
+                        "ability": 5185,
+                        "time": 1158,
+                        "level": 12
+                    },
+                    {
+                        "ability": 5691,
+                        "time": 1220,
+                        "level": 13
+                    },
+                    {
+                        "ability": 5691,
+                        "time": 1312,
+                        "level": 14
+                    },
+                    {
+                        "ability": 7388,
+                        "time": 1350,
+                        "level": 15
+                    },
+                    {
+                        "ability": 867,
+                        "time": 1477,
+                        "level": 16
+                    },
+                    {
+                        "ability": 5185,
+                        "time": 1652,
+                        "level": 17
+                    },
+                    {
+                        "ability": 6128,
+                        "time": 1932,
+                        "level": 18
+                    },
+                    {
+                        "ability": 7001,
+                        "time": 2327,
+                        "level": 19
+                    },
+                    {
+                        "ability": 856,
+                        "time": 2590,
+                        "level": 20
+                    },
+                    {
+                        "ability": 868,
+                        "time": 2706,
+                        "level": 21
+                    },
+                    {
+                        "ability": 6807,
+                        "time": 2856,
+                        "level": 22
+                    }
+                ]
+            },
+            {
+                "account_id": 133066657,
+                "player_slot": 2,
+                "team_number": 0,
+                "team_slot": 2,
+                "hero_id": 22,
+                "item_0": 48,
+                "item_1": 108,
+                "item_2": 259,
+                "item_3": 232,
+                "item_4": 37,
+                "item_5": 110,
+                "backpack_0": 77,
+                "backpack_1": 0,
+                "backpack_2": 0,
+                "item_neutral": 311,
+                "kills": 17,
+                "deaths": 5,
+                "assists": 24,
+                "leaver_status": 0,
+                "last_hits": 154,
+                "denies": 7,
+                "gold_per_min": 487,
+                "xp_per_min": 671,
+                "level": 26,
+                "net_worth": 20108,
+                "aghanims_scepter": 0,
+                "aghanims_shard": 1,
+                "moonshard": 0,
+                "hero_damage": 54753,
+                "tower_damage": 699,
+                "hero_healing": 0,
+                "gold": 678,
+                "gold_spent": 20830,
+                "scaled_hero_damage": 24524,
+                "scaled_tower_damage": 333,
+                "scaled_hero_healing": 0,
+                "ability_upgrades": [
+                    {
+                        "ability": 641,
+                        "time": 223,
+                        "level": 1
+                    },
+                    {
+                        "ability": 5111,
+                        "time": 327,
+                        "level": 2
+                    },
+                    {
+                        "ability": 5111,
+                        "time": 410,
+                        "level": 3
+                    },
+                    {
+                        "ability": 641,
+                        "time": 555,
+                        "level": 4
+                    },
+                    {
+                        "ability": 5111,
+                        "time": 785,
+                        "level": 5
+                    },
+                    {
+                        "ability": 5113,
+                        "time": 830,
+                        "level": 6
+                    },
+                    {
+                        "ability": 5111,
+                        "time": 922,
+                        "level": 7
+                    },
+                    {
+                        "ability": 5110,
+                        "time": 980,
+                        "level": 8
+                    },
+                    {
+                        "ability": 641,
+                        "time": 1044,
+                        "level": 9
+                    },
+                    {
+                        "ability": 738,
+                        "time": 1201,
+                        "level": 10
+                    },
+                    {
+                        "ability": 641,
+                        "time": 1267,
+                        "level": 11
+                    },
+                    {
+                        "ability": 5113,
+                        "time": 1445,
+                        "level": 12
+                    },
+                    {
+                        "ability": 5110,
+                        "time": 1472,
+                        "level": 13
+                    },
+                    {
+                        "ability": 5110,
+                        "time": 1570,
+                        "level": 14
+                    },
+                    {
+                        "ability": 6195,
+                        "time": 1728,
+                        "level": 15
+                    },
+                    {
+                        "ability": 5110,
+                        "time": 1869,
+                        "level": 16
+                    },
+                    {
+                        "ability": 5113,
+                        "time": 2098,
+                        "level": 17
+                    },
+                    {
+                        "ability": 6518,
+                        "time": 2169,
+                        "level": 18
+                    },
+                    {
+                        "ability": 8038,
+                        "time": 2791,
+                        "level": 19
+                    }
+                ]
+            },
+            {
+                "account_id": 150914755,
+                "player_slot": 3,
+                "team_number": 0,
+                "team_slot": 3,
+                "hero_id": 14,
+                "item_0": 50,
+                "item_1": 108,
+                "item_2": 176,
+                "item_3": 40,
+                "item_4": 125,
+                "item_5": 692,
+                "backpack_0": 265,
+                "backpack_1": 178,
+                "backpack_2": 0,
+                "item_neutral": 574,
+                "kills": 10,
+                "deaths": 15,
+                "assists": 16,
+                "leaver_status": 0,
+                "last_hits": 188,
+                "denies": 3,
+                "gold_per_min": 435,
+                "xp_per_min": 503,
+                "level": 22,
+                "net_worth": 17191,
+                "aghanims_scepter": 0,
+                "aghanims_shard": 0,
+                "moonshard": 0,
+                "hero_damage": 24641,
+                "tower_damage": 1099,
+                "hero_healing": 0,
+                "gold": 611,
+                "gold_spent": 17355,
+                "scaled_hero_damage": 13435,
+                "scaled_tower_damage": 337,
+                "scaled_hero_healing": 0,
+                "ability_upgrades": [
+                    {
+                        "ability": 5075,
+                        "time": 150,
+                        "level": 1
+                    },
+                    {
+                        "ability": 5076,
+                        "time": 338,
+                        "level": 2
+                    },
+                    {
+                        "ability": 5076,
+                        "time": 439,
+                        "level": 3
+                    },
+                    {
+                        "ability": 5074,
+                        "time": 569,
+                        "level": 4
+                    },
+                    {
+                        "ability": 5076,
+                        "time": 657,
+                        "level": 5
+                    },
+                    {
+                        "ability": 5077,
+                        "time": 736,
+                        "level": 6
+                    },
+                    {
+                        "ability": 5076,
+                        "time": 916,
+                        "level": 7
+                    },
+                    {
+                        "ability": 5074,
+                        "time": 1041,
+                        "level": 8
+                    },
+                    {
+                        "ability": 5074,
+                        "time": 1158,
+                        "level": 9
+                    },
+                    {
+                        "ability": 5074,
+                        "time": 1257,
+                        "level": 10
+                    },
+                    {
+                        "ability": 5075,
+                        "time": 1369,
+                        "level": 11
+                    },
+                    {
+                        "ability": 5077,
+                        "time": 1476,
+                        "level": 12
+                    },
+                    {
+                        "ability": 5075,
+                        "time": 1570,
+                        "level": 13
+                    },
+                    {
+                        "ability": 7142,
+                        "time": 1657,
+                        "level": 14
+                    },
+                    {
+                        "ability": 6564,
+                        "time": 1703,
+                        "level": 15
+                    },
+                    {
+                        "ability": 5075,
+                        "time": 1846,
+                        "level": 16
+                    },
+                    {
+                        "ability": 5077,
+                        "time": 2099,
+                        "level": 17
+                    },
+                    {
+                        "ability": 408,
+                        "time": 2473,
+                        "level": 18
+                    }
+                ]
+            },
+            {
+                "account_id": 86692726,
+                "player_slot": 4,
+                "team_number": 0,
+                "team_slot": 4,
+                "hero_id": 136,
+                "item_0": 1,
+                "item_1": 38,
+                "item_2": 218,
+                "item_3": 232,
+                "item_4": 40,
+                "item_5": 29,
+                "backpack_0": 36,
+                "backpack_1": 0,
+                "backpack_2": 244,
+                "item_neutral": 336,
+                "kills": 2,
+                "deaths": 12,
+                "assists": 27,
+                "leaver_status": 0,
+                "last_hits": 18,
+                "denies": 4,
+                "gold_per_min": 272,
+                "xp_per_min": 607,
+                "level": 24,
+                "net_worth": 8405,
+                "aghanims_scepter": 0,
+                "aghanims_shard": 0,
+                "moonshard": 0,
+                "hero_damage": 10150,
+                "tower_damage": 430,
+                "hero_healing": 4424,
+                "gold": 2350,
+                "gold_spent": 9820,
+                "scaled_hero_damage": 6479,
+                "scaled_tower_damage": 218,
+                "scaled_hero_healing": 1349,
+                "ability_upgrades": [
+                    {
+                        "ability": 8192,
+                        "time": 220,
+                        "level": 1
+                    },
+                    {
+                        "ability": 8235,
+                        "time": 365,
+                        "level": 2
+                    },
+                    {
+                        "ability": 8234,
+                        "time": 461,
+                        "level": 3
+                    },
+                    {
+                        "ability": 8192,
+                        "time": 608,
+                        "level": 4
+                    },
+                    {
+                        "ability": 8192,
+                        "time": 830,
+                        "level": 5
+                    },
+                    {
+                        "ability": 8198,
+                        "time": 878,
+                        "level": 6
+                    },
+                    {
+                        "ability": 8192,
+                        "time": 1051,
+                        "level": 7
+                    },
+                    {
+                        "ability": 8234,
+                        "time": 1226,
+                        "level": 8
+                    },
+                    {
+                        "ability": 8234,
+                        "time": 1259,
+                        "level": 9
+                    },
+                    {
+                        "ability": 8234,
+                        "time": 1428,
+                        "level": 10
+                    },
+                    {
+                        "ability": 8235,
+                        "time": 1580,
+                        "level": 11
+                    },
+                    {
+                        "ability": 8198,
+                        "time": 1606,
+                        "level": 12
+                    },
+                    {
+                        "ability": 8235,
+                        "time": 1931,
+                        "level": 13
+                    },
+                    {
+                        "ability": 8235,
+                        "time": 2113,
+                        "level": 14
+                    },
+                    {
+                        "ability": 8243,
+                        "time": 2123,
+                        "level": 15
+                    },
+                    {
+                        "ability": 5932,
+                        "time": 2177,
+                        "level": 16
+                    },
+                    {
+                        "ability": 8198,
+                        "time": 2396,
+                        "level": 17
+                    },
+                    {
+                        "ability": 8242,
+                        "time": 2603,
+                        "level": 18
+                    }
+                ]
+            },
+            {
+                "account_id": 236586058,
+                "player_slot": 128,
+                "team_number": 1,
+                "team_slot": 0,
+                "hero_id": 100,
+                "item_0": 50,
+                "item_1": 1,
+                "item_2": 610,
+                "item_3": 593,
+                "item_4": 36,
+                "item_5": 40,
+                "backpack_0": 0,
+                "backpack_1": 0,
+                "backpack_2": 0,
+                "item_neutral": 311,
+                "kills": 4,
+                "deaths": 14,
+                "assists": 19,
+                "leaver_status": 0,
+                "last_hits": 73,
+                "denies": 1,
+                "gold_per_min": 328,
+                "xp_per_min": 495,
+                "level": 22,
+                "net_worth": 12891,
+                "aghanims_scepter": 0,
+                "aghanims_shard": 0,
+                "moonshard": 0,
+                "hero_damage": 16406,
+                "tower_damage": 224,
+                "hero_healing": 0,
+                "gold": 1436,
+                "gold_spent": 12345,
+                "scaled_hero_damage": 8748,
+                "scaled_tower_damage": 141,
+                "scaled_hero_healing": 0,
+                "ability_upgrades": [
+                    {
+                        "ability": 7322,
+                        "time": 261,
+                        "level": 1
+                    },
+                    {
+                        "ability": 5566,
+                        "time": 409,
+                        "level": 2
+                    },
+                    {
+                        "ability": 5565,
+                        "time": 533,
+                        "level": 3
+                    },
+                    {
+                        "ability": 7322,
+                        "time": 749,
+                        "level": 4
+                    },
+                    {
+                        "ability": 7322,
+                        "time": 869,
+                        "level": 5
+                    },
+                    {
+                        "ability": 5568,
+                        "time": 908,
+                        "level": 6
+                    },
+                    {
+                        "ability": 7322,
+                        "time": 1098,
+                        "level": 7
+                    },
+                    {
+                        "ability": 5566,
+                        "time": 1151,
+                        "level": 8
+                    },
+                    {
+                        "ability": 5566,
+                        "time": 1350,
+                        "level": 9
+                    },
+                    {
+                        "ability": 5566,
+                        "time": 1365,
+                        "level": 10
+                    },
+                    {
+                        "ability": 5565,
+                        "time": 1427,
+                        "level": 11
+                    },
+                    {
+                        "ability": 5568,
+                        "time": 1610,
+                        "level": 12
+                    },
+                    {
+                        "ability": 5565,
+                        "time": 1708,
+                        "level": 13
+                    },
+                    {
+                        "ability": 5565,
+                        "time": 1951,
+                        "level": 14
+                    },
+                    {
+                        "ability": 6411,
+                        "time": 2204,
+                        "level": 15
+                    },
+                    {
+                        "ability": 414,
+                        "time": 2290,
+                        "level": 16
+                    },
+                    {
+                        "ability": 5568,
+                        "time": 2482,
+                        "level": 17
+                    },
+                    {
+                        "ability": 6963,
+                        "time": 2834,
+                        "level": 18
+                    }
+                ]
+            },
+            {
+                "account_id": 4294967295,
+                "player_slot": 129,
+                "team_number": 1,
+                "team_slot": 1,
+                "hero_id": 70,
+                "item_0": 116,
+                "item_1": 1,
+                "item_2": 174,
+                "item_3": 26,
+                "item_4": 208,
+                "item_5": 50,
+                "backpack_0": 0,
+                "backpack_1": 0,
+                "backpack_2": 0,
+                "item_neutral": 825,
+                "kills": 14,
+                "deaths": 8,
+                "assists": 8,
+                "leaver_status": 0,
+                "last_hits": 235,
+                "denies": 19,
+                "gold_per_min": 509,
+                "xp_per_min": 728,
+                "level": 25,
+                "net_worth": 18231,
+                "aghanims_scepter": 0,
+                "aghanims_shard": 0,
+                "moonshard": 0,
+                "hero_damage": 28415,
+                "tower_damage": 432,
+                "hero_healing": 0,
+                "gold": 681,
+                "gold_spent": 19915,
+                "scaled_hero_damage": 16456,
+                "scaled_tower_damage": 213,
+                "scaled_hero_healing": 0,
+                "ability_upgrades": [
+                    {
+                        "ability": 5359,
+                        "time": 247,
+                        "level": 1
+                    },
+                    {
+                        "ability": 5357,
+                        "time": 366,
+                        "level": 2
+                    },
+                    {
+                        "ability": 5359,
+                        "time": 377,
+                        "level": 3
+                    },
+                    {
+                        "ability": 5358,
+                        "time": 458,
+                        "level": 4
+                    },
+                    {
+                        "ability": 5359,
+                        "time": 521,
+                        "level": 5
+                    },
+                    {
+                        "ability": 5360,
+                        "time": 600,
+                        "level": 6
+                    },
+                    {
+                        "ability": 5359,
+                        "time": 697,
+                        "level": 7
+                    },
+                    {
+                        "ability": 5358,
+                        "time": 768,
+                        "level": 8
+                    },
+                    {
+                        "ability": 5358,
+                        "time": 859,
+                        "level": 9
+                    },
+                    {
+                        "ability": 5358,
+                        "time": 1079,
+                        "level": 10
+                    },
+                    {
+                        "ability": 6975,
+                        "time": 1139,
+                        "level": 11
+                    },
+                    {
+                        "ability": 5360,
+                        "time": 1206,
+                        "level": 12
+                    },
+                    {
+                        "ability": 5357,
+                        "time": 1279,
+                        "level": 13
+                    },
+                    {
+                        "ability": 5357,
+                        "time": 1300,
+                        "level": 14
+                    },
+                    {
+                        "ability": 6195,
+                        "time": 1410,
+                        "level": 15
+                    },
+                    {
+                        "ability": 5357,
+                        "time": 1495,
+                        "level": 16
+                    },
+                    {
+                        "ability": 5360,
+                        "time": 1734,
+                        "level": 17
+                    },
+                    {
+                        "ability": 6132,
+                        "time": 1910,
+                        "level": 18
+                    },
+                    {
+                        "ability": 424,
+                        "time": 2584,
+                        "level": 19
+                    }
+                ]
+            },
+            {
+                "account_id": 919090208,
+                "player_slot": 130,
+                "team_number": 1,
+                "team_slot": 2,
+                "hero_id": 74,
+                "item_0": 218,
+                "item_1": 180,
+                "item_2": 267,
+                "item_3": 100,
+                "item_4": 77,
+                "item_5": 265,
+                "backpack_0": 188,
+                "backpack_1": 0,
+                "backpack_2": 0,
+                "item_neutral": 289,
+                "kills": 4,
+                "deaths": 10,
+                "assists": 20,
+                "leaver_status": 0,
+                "last_hits": 61,
+                "denies": 1,
+                "gold_per_min": 297,
+                "xp_per_min": 470,
+                "level": 21,
+                "net_worth": 8248,
+                "aghanims_scepter": 0,
+                "aghanims_shard": 0,
+                "moonshard": 0,
+                "hero_damage": 19476,
+                "tower_damage": 1453,
+                "hero_healing": 435,
+                "gold": 163,
+                "gold_spent": 12195,
+                "scaled_hero_damage": 11069,
+                "scaled_tower_damage": 473,
+                "scaled_hero_healing": 286,
+                "ability_upgrades": [
+                    {
+                        "ability": 5371,
+                        "time": 266,
+                        "level": 1
+                    },
+                    {
+                        "ability": 5370,
+                        "time": 349,
+                        "level": 2
+                    },
+                    {
+                        "ability": 5370,
+                        "time": 459,
+                        "level": 3
+                    },
+                    {
+                        "ability": 5371,
+                        "time": 600,
+                        "level": 4
+                    },
+                    {
+                        "ability": 5370,
+                        "time": 653,
+                        "level": 5
+                    },
+                    {
+                        "ability": 5371,
+                        "time": 840,
+                        "level": 6
+                    },
+                    {
+                        "ability": 5370,
+                        "time": 974,
+                        "level": 7
+                    },
+                    {
+                        "ability": 5371,
+                        "time": 1151,
+                        "level": 8
+                    },
+                    {
+                        "ability": 5370,
+                        "time": 1366,
+                        "level": 9
+                    },
+                    {
+                        "ability": 5371,
+                        "time": 1434,
+                        "level": 10
+                    },
+                    {
+                        "ability": 5372,
+                        "time": 1483,
+                        "level": 11
+                    },
+                    {
+                        "ability": 5372,
+                        "time": 1670,
+                        "level": 12
+                    },
+                    {
+                        "ability": 5372,
+                        "time": 1723,
+                        "level": 13
+                    },
+                    {
+                        "ability": 5372,
+                        "time": 1767,
+                        "level": 14
+                    },
+                    {
+                        "ability": 5372,
+                        "time": 1829,
+                        "level": 15
+                    },
+                    {
+                        "ability": 5372,
+                        "time": 2154,
+                        "level": 16
+                    },
+                    {
+                        "ability": 5372,
+                        "time": 2200,
+                        "level": 17
+                    },
+                    {
+                        "ability": 5370,
+                        "time": 2216,
+                        "level": 18
+                    },
+                    {
+                        "ability": 7148,
+                        "time": 2381,
+                        "level": 19
+                    },
+                    {
+                        "ability": 5371,
+                        "time": 2573,
+                        "level": 20
+                    },
+                    {
+                        "ability": 5370,
+                        "time": 2670,
+                        "level": 21
+                    }
+                ]
+            },
+            {
+                "account_id": 4294967295,
+                "player_slot": 131,
+                "team_number": 1,
+                "team_slot": 3,
+                "hero_id": 15,
+                "item_0": 75,
+                "item_1": 63,
+                "item_2": 1,
+                "item_3": 210,
+                "item_4": 116,
+                "item_5": 110,
+                "backpack_0": 42,
+                "backpack_1": 0,
+                "backpack_2": 0,
+                "item_neutral": 837,
+                "kills": 7,
+                "deaths": 7,
+                "assists": 6,
+                "leaver_status": 0,
+                "last_hits": 284,
+                "denies": 9,
+                "gold_per_min": 487,
+                "xp_per_min": 730,
+                "level": 26,
+                "net_worth": 17457,
+                "aghanims_scepter": 0,
+                "aghanims_shard": 0,
+                "moonshard": 0,
+                "hero_damage": 18236,
+                "tower_damage": 1031,
+                "hero_healing": 0,
+                "gold": 602,
+                "gold_spent": 19255,
+                "scaled_hero_damage": 10231,
+                "scaled_tower_damage": 602,
+                "scaled_hero_healing": 0,
+                "ability_upgrades": [
+                    {
+                        "ability": 5083,
+                        "time": 158,
+                        "level": 1
+                    },
+                    {
+                        "ability": 5082,
+                        "time": 315,
+                        "level": 2
+                    },
+                    {
+                        "ability": 5083,
+                        "time": 381,
+                        "level": 3
+                    },
+                    {
+                        "ability": 5082,
+                        "time": 527,
+                        "level": 4
+                    },
+                    {
+                        "ability": 5082,
+                        "time": 596,
+                        "level": 5
+                    },
+                    {
+                        "ability": 5085,
+                        "time": 736,
+                        "level": 6
+                    },
+                    {
+                        "ability": 5082,
+                        "time": 810,
+                        "level": 7
+                    },
+                    {
+                        "ability": 5084,
+                        "time": 912,
+                        "level": 8
+                    },
+                    {
+                        "ability": 5083,
+                        "time": 984,
+                        "level": 9
+                    },
+                    {
+                        "ability": 749,
+                        "time": 1045,
+                        "level": 10
+                    },
+                    {
+                        "ability": 5083,
+                        "time": 1156,
+                        "level": 11
+                    },
+                    {
+                        "ability": 5085,
+                        "time": 1343,
+                        "level": 12
+                    },
+                    {
+                        "ability": 5084,
+                        "time": 1403,
+                        "level": 13
+                    },
+                    {
+                        "ability": 5084,
+                        "time": 1542,
+                        "level": 14
+                    },
+                    {
+                        "ability": 6281,
+                        "time": 1586,
+                        "level": 15
+                    },
+                    {
+                        "ability": 5084,
+                        "time": 1672,
+                        "level": 16
+                    },
+                    {
+                        "ability": 5085,
+                        "time": 1829,
+                        "level": 17
+                    },
+                    {
+                        "ability": 567,
+                        "time": 2107,
+                        "level": 18
+                    },
+                    {
+                        "ability": 6030,
+                        "time": 2575,
+                        "level": 19
+                    }
+                ]
+            },
+            {
+                "account_id": 173978074,
+                "player_slot": 132,
+                "team_number": 1,
+                "team_slot": 4,
+                "hero_id": 17,
+                "item_0": 96,
+                "item_1": 116,
+                "item_2": 63,
+                "item_3": 41,
+                "item_4": 98,
+                "item_5": 273,
+                "backpack_0": 0,
+                "backpack_1": 0,
+                "backpack_2": 0,
+                "item_neutral": 300,
+                "kills": 13,
+                "deaths": 6,
+                "assists": 13,
+                "leaver_status": 0,
+                "last_hits": 316,
+                "denies": 5,
+                "gold_per_min": 571,
+                "xp_per_min": 738,
+                "level": 26,
+                "net_worth": 20156,
+                "aghanims_scepter": 0,
+                "aghanims_shard": 0,
+                "moonshard": 0,
+                "hero_damage": 36852,
+                "tower_damage": 1120,
+                "hero_healing": 0,
+                "gold": 681,
+                "gold_spent": 22060,
+                "scaled_hero_damage": 21031,
+                "scaled_tower_damage": 622,
+                "scaled_hero_healing": 0,
+                "ability_upgrades": [
+                    {
+                        "ability": 5098,
+                        "time": 146,
+                        "level": 1
+                    },
+                    {
+                        "ability": 5100,
+                        "time": 277,
+                        "level": 2
+                    },
+                    {
+                        "ability": 5099,
+                        "time": 329,
+                        "level": 3
+                    },
+                    {
+                        "ability": 5100,
+                        "time": 401,
+                        "level": 4
+                    },
+                    {
+                        "ability": 5098,
+                        "time": 466,
+                        "level": 5
+                    },
+                    {
+                        "ability": 5101,
+                        "time": 556,
+                        "level": 6
+                    },
+                    {
+                        "ability": 5098,
+                        "time": 618,
+                        "level": 7
+                    },
+                    {
+                        "ability": 5098,
+                        "time": 703,
+                        "level": 8
+                    },
+                    {
+                        "ability": 5100,
+                        "time": 815,
+                        "level": 9
+                    },
+                    {
+                        "ability": 5100,
+                        "time": 921,
+                        "level": 10
+                    },
+                    {
+                        "ability": 5099,
+                        "time": 1058,
+                        "level": 11
+                    },
+                    {
+                        "ability": 5101,
+                        "time": 1086,
+                        "level": 12
+                    },
+                    {
+                        "ability": 5099,
+                        "time": 1185,
+                        "level": 13
+                    },
+                    {
+                        "ability": 5099,
+                        "time": 1315,
+                        "level": 14
+                    },
+                    {
+                        "ability": 5903,
+                        "time": 1372,
+                        "level": 15
+                    },
+                    {
+                        "ability": 7132,
+                        "time": 1576,
+                        "level": 16
+                    },
+                    {
+                        "ability": 5101,
+                        "time": 1723,
+                        "level": 17
+                    },
+                    {
+                        "ability": 6167,
+                        "time": 1951,
+                        "level": 18
+                    },
+                    {
+                        "ability": 627,
+                        "time": 2551,
+                        "level": 19
+                    }
+                ]
+            }
+        ],
+        "radiant_win": true,
+        "duration": 2662,
+        "pre_game_duration": 90,
+        "start_time": 1660356765,
+        "match_id": 6704596517,
+        "match_seq_num": 5608496734,
+        "tower_status_radiant": 1844,
+        "tower_status_dire": 388,
+        "barracks_status_radiant": 63,
+        "barracks_status_dire": 51,
+        "cluster": 121,
+        "first_blood_time": 2,
+        "lobby_type": 7,
+        "human_players": 10,
+        "leagueid": 0,
+        "positive_votes": 0,
+        "negative_votes": 0,
+        "game_mode": 22,
+        "flags": 0,
+        "engine": 1,
+        "radiant_score": 45,
+        "dire_score": 42,
+        "picks_bans": [
+            {
+                "is_pick": true,
+                "hero_id": 15,
+                "team": 1,
+                "order": 0
+            },
+            {
+                "is_pick": true,
+                "hero_id": 14,
+                "team": 0,
+                "order": 1
+            },
+            {
+                "is_pick": true,
+                "hero_id": 136,
+                "team": 0,
+                "order": 2
+            },
+            {
+                "is_pick": true,
+                "hero_id": 41,
+                "team": 0,
+                "order": 3
+            },
+            {
+                "is_pick": true,
+                "hero_id": 70,
+                "team": 1,
+                "order": 4
+            },
+            {
+                "is_pick": true,
+                "hero_id": 100,
+                "team": 1,
+                "order": 5
+            },
+            {
+                "is_pick": true,
+                "hero_id": 22,
+                "team": 0,
+                "order": 6
+            },
+            {
+                "is_pick": true,
+                "hero_id": 126,
+                "team": 0,
+                "order": 7
+            },
+            {
+                "is_pick": true,
+                "hero_id": 17,
+                "team": 1,
+                "order": 8
+            },
+            {
+                "is_pick": false,
+                "hero_id": 73,
+                "team": 0,
+                "order": 9
+            },
+            {
+                "is_pick": false,
+                "hero_id": 50,
+                "team": 0,
+                "order": 10
+            }
+        ]
+    }
+}
