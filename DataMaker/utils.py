@@ -12,6 +12,8 @@ from bs4 import BeautifulSoup
 # load constance variable
 from constance import key , heros
 
+# for create database for storing matchID
+import sqlite3
  
 
 
@@ -42,12 +44,11 @@ class JsonWriter():
 
     def __init__(self) -> None :
 
-        self.filename = "Data.json"
-        self.directory = os.getcwd()[:len(os.getcwd()) - 5] + "Data"
+        self.directory = os.getcwd()[:len(os.getcwd()) - 9] + "JsonFiles"
         
-    def Write(self , data : dict) -> None:
+    def Write(self , data : dict , filename : str) -> None:
         # create the path of json file
-        fullAddress = self.directory + "\\" + self.filename
+        fullAddress = self.directory + "\\" + filename
         with open(fullAddress , mode = "w") as jsonFile :
             # write the json file
             json.dump(data , jsonFile , indent = 4)
@@ -65,37 +66,68 @@ class MatchIDFinderByHeroName():
     def GrabMatchID(self) -> None:
 
         for heroName in heros :
-            print(heroName)
+            #print(heroName)
             # create url link for send request to grab data
             urlLink = "https://www.dota2protracker.com/hero/" + heroName.replace(" " , "%20")
+            #print(urlLink)
             # get the content of page 
             htmlData = requests.get(urlLink).content
+            
             # create BeautifulSoup object
             soup = BeautifulSoup(htmlData , "html.parser")
+            print(soup.prettify)
+            break
             # find all a tag with info opendota information
             aTagList = soup.find_all("a" , class_ = "info opendota")
-            
+            #print(aTagList)
             for item in aTagList :
                 matchID = item["href"].split("/")[-1]
                 self.matchIDSet.add(matchID)
+                print(matchID)
         return None
     
+
+
+class DataBaseHandler() :
+
+    def __init__(self):
+        self.directory = os.getcwd()[:len(os.getcwd()) - 9] + "MatchIDFiles" + "\\" + "MatchID.db"
+        self.database = sqlite3.connect(self.directory)
+        self.cursor = self.database.cursor()
+
     
+    def CreateTable(self):
+      
+        self.database.execute(
+            """
+            CREATE TABLE MatchID
+            (MatchID INT PRIMARY KEY NOT NULL);
+            """
+        )
+        print("data base and table created!")
+        return None
 
-class TextFileWriter():
 
-    def __init__(self) -> None:
-        self.directory = os.getcwd()[:len(os.getcwd()) - 5] + "Data"
-        print(self.directory)
-        self.fileName = "MatchID.txt"
+    def SaveMatchID(self , matchIDset : set) :
 
-    def Write(self , data) -> None:
+        for item in matchIDset :
+
+            try :
+             
+                self.cursor.execute("insert into MatchID (MatchID) values (?)" , (item,))
+                self.database.commit()
+            except:
+                print("some problem happen")
         
-        fullAddress = self.directory + "\\" + self.fileName
-        with open(fullAddress , "a") as textFile :
-            for item in data :
-                textFile.write(item + "\n")
-
         return None
 
-a = TextFileWriter()
+
+
+
+    def ReadMatchIDTable(self):
+
+        self.cursor.execute("select * from MatchID")
+        matchIDs = self.cursor.fetchall()
+        print(type(matchIDs))
+        return matchIDs
+
