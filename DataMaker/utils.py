@@ -127,9 +127,6 @@ class DataBaseHandler() :
 
         self.cursor.execute("select * from MatchID")
         matchIDs = self.cursor.fetchall()
-        print(matchIDs)
         return matchIDs
 
 
-a = DataBaseHandler()
-a.ReadMatchIDTable()

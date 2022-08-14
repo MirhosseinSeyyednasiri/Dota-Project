@@ -15,13 +15,13 @@ def DataGather():
 
 
     
-    matchIDs = dataBase.ReadMatchIDTable()
-    matchDataReciver = DataReciver()
-    jsonWirter = JsonWriter()
-    for  matchID in matchIDs :
+#    matchIDs = dataBase.ReadMatchIDTable()
+#    matchDataReciver = DataReciver()
+#    jsonWirter = JsonWriter()
+#    for  matchID in matchIDs :
 
-        matchIDDate = matchDataReciver.GetMatchDetail(matchID[0])
-        jsonWirter.Write(matchIDDate , str(matchID[0]) + ".json")
+#        matchIDDate = matchDataReciver.GetMatchDetail(matchID[0])
+#        jsonWirter.Write(matchIDDate , str(matchID[0]) + ".json")
 
 
 
