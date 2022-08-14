@@ -90,12 +90,12 @@ class MatchIDFinderByHeroName():
 class DataBaseHandler() :
 
     def __init__(self):
-        self.directory = os.getcwd()[:len(os.getcwd()) - 9] + "MatchIDFiles" + "\\" + "MatchID.db"
+        self.directory = os.getcwd()[:len(os.getcwd()) - 9] + "MatchIDFiles" + "\\" + "Constance.db"
         self.database = sqlite3.connect(self.directory)
         self.cursor = self.database.cursor()
 
     
-    def CreateTable(self):
+    def CreateTableMatchID(self):
       
         self.database.execute(
             """
@@ -121,12 +121,106 @@ class DataBaseHandler() :
         return None
 
 
-
-
     def ReadMatchIDTable(self):
 
         self.cursor.execute("select * from MatchID")
         matchIDs = self.cursor.fetchall()
         return matchIDs
 
+    
+    def CreateTablePlayerName(self):
+
+        self.database.execute(
+            """
+            CREATE TABLE PlayerName
+            (playerName text PRIMARY KEY NOT NULL);
+            """
+        )      
+
+    def SavePlayerName(self , playerNameset : set) :
+
+        for item in playerNameset :
+
+            try :
+             
+                self.cursor.execute("insert into PlayerName (playerName) values (?)" , (item,))
+                self.database.commit()
+            except:
+                print("some problem happen")
+        
+        return None
+
+
+    def ReadPlayerNameTable(self):
+        self.cursor.execute("select * from PlayerName")
+        PlayerNames = self.cursor.fetchall()
+        return PlayerNames
+
+
+
+class PlayerNameFinder():
+
+
+    def __init__(self) -> None:
+
+        self.playerNameSet = set()
+
+
+    def GrabPlayerName(self) :
+
+        urlLink = "https://www.dota2protracker.com/"
+
+        htmlData = requests.get(urlLink).content
+
+        soup = BeautifulSoup(htmlData , "html.parser")
+
+        tdTagList = soup.find_all("td" , class_ = "td-player")
+        
+        for tdTag in tdTagList :
+
+            aTag = tdTag.find("a")
+            
+            if aTag :
+                playerName = aTag["href"].split("/")[-1]
+                #print(playerName)
+                self.playerNameSet.add(playerName)
+
+        return None
+
+
+class MatchIDFinderByPlayerName():
+
+    def __init__(self) -> None:
+        self.matchIDSet = set()
+
+    def GrabData(self) :
+        dataBase = DataBaseHandler()
+        
+        playerNames = dataBase.ReadPlayerNameTable()
+        for playerName in playerNames :
+            print(playerName)
+            urllink = "https://www.dota2protracker.com/player/" + playerName[0].replace(" " , "%20")
+
+            try :
+                htmlData = requests.get(urllink).content
+
+                soup = BeautifulSoup(htmlData , "html.parser")
+
+                aTags = soup.find_all("a" , class_ = "info opendota")
+
+                for aTag in aTags:
+                    matchID = aTag["href"].split("/")[-1]
+                    print(matchID)
+                    self.matchIDSet.add(matchID)
+            except :
+                pass
+
+
+                
+
+
+if __name__ == "__main__" : 
+    a = MatchIDFinderByPlayerName()
+    a.GrabData()
+    
 
